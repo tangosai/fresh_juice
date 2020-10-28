@@ -176,7 +176,18 @@ $(document).ready(function () {
         y: -800,
         ease: Expo.easeInOut
     })
-
+     TweenMax.from(".swiper-button-prev", 1, {
+        delay: 3.2,
+        opacity: 0,
+        x: -20,
+        ease: Expo.easeInOut
+    })
+    TweenMax.from(".swiper-button-next", 1, {
+        delay: 3.2,
+        opacity: 0,
+        x: 20,
+        ease: Expo.easeInOut
+    })
 
 
 });
